@@ -1,0 +1,103 @@
+/* Navbar styles */
+.navbar {
+    box-shadow: 0px 15px 10px -15px rgb(158, 157, 157);
+    background-color: #8f373b ;
+}
+body {
+    background-color: #f0f0f0; 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+    background-color: #191919;
+  }
+
+.container {
+    margin-top: 60px;
+    background-color: #27656d; 
+}
+.btn-warning {
+    background-color: #8f373b;
+    background-color: #8f373b;
+    background-color:#ffffff;
+    background-color: #C30101;
+    background-color: #940000;
+    background-color: #85b11d;
+    background-color: 	#d53600;
+    color: whitesmoke;
+    outline: none !important;
+     border: none;
+
+
+}
+
+.clear-btn {
+    /* background-color: #85b11d !important; */
+    /* background-color: #940000; */
+    color: aliceblue !important;
+    background-color: 	#d53600;
+}
+
+/* Button group styles */
+.btns {
+    display: flex;
+}
+
+/* Image styles */
+a img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Card image styles */
+.my-img {
+    padding: 30px;
+    height: 350px !important;
+    object-fit: cover;
+    width: 100%;
+    background-image: url(bg.jpeg);
+}
+
+/* Card container styles */
+.my-card {
+    flex-wrap: wrap;
+    background-color: #51a4af;
+    /* background-color: #4c6568; */
+}
+
+/* Card title styles */
+.my-card h5 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222222;
+    color:#037272
+}
+
+/* Card year styles */
+.my-card h6 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222222;
+
+    color:#037272
+}
+
+
+.my-card p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #205252;
+}
+.form-select{
+    background-color: rgb(230, 229, 229);
+}
+
+/* Responsive form select styles for smaller screens */
+@media screen and (max-width: 390px) {
+    .form-select {
+        width: 80% !important;
+        margin: auto;
+    }
+}
